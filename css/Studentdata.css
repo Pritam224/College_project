@@ -1,0 +1,15 @@
+
+body {
+    background-image:url('https://www.gannett-cdn.com/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg');
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 0.9em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(66, 61, 61, 0.616);
+}
