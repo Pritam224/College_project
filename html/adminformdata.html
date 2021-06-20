@@ -1,38 +1,24 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Html CRUD with Pure JavaScript</title>
+    <link rel="stylesheet" href="../css/adminFormData.css" />
+  </head>
 
-<head>
-    <title>
-        Html CRUD with Pure JavaScript
-    </title>
-    <link rel="stylesheet" href="../css/styles.css">
-</head>
-
-<body>
-    <img class=img1
-        src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.usatoday.com%2Fstory%2Ftravel%2Fhotels%2F2014%2F08%2F14%2Fhotel-booking-tips%2F14006883%2F&psig=AOvVaw3Ho0kpuFN_G0zx6u7XD5vU&ust=1624216473425000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCOCF74K0pPECFQAAAAAdAAAAABAD' />
-    <table>
+  <body>
+    <table class="list">
+      <thead>
         <tr>
-            <td>
-                <table class="list" id="employeeList">
-                    <thead>
-                        <tr>
-                            <th>Room ID</th>
-                            <th>Room Type</th>
-                            <th>Room Location</th>
-                            <th>Room Charge</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody id="formValues" >
-
-                    </tbody>
-                </table>
-            </td>
+          <th>Room ID</th>
+          <th>Room Type</th>
+          <th>Room Location</th>
+          <th>Room Charge</th>
+          <th>Edit</th>
+          <th>Delete</th>
         </tr>
-        </tr>
+      </thead>
+      <tbody id="formValues"></tbody>
     </table>
-    <script src="../js/script.js"></script>
-</body>
-
+  </body>
 </html>
+<script type="module" src="../js/script.js"></script>
