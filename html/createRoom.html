@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Html CRUD with Pure JavaScript</title>
+    <link rel="stylesheet" href="../css/createRoom.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="tab">
+      <table>
+        <tr>
+          <td>
+            <h1>Create Room</h1>
+            <div>
+              <label>Room ID</label
+              ><label class="validation-error hide" id="fullNameValidationError"
+                >This field is required.</label
+              >
+              <input type="number" name="roomId" id="roomId" />
+            </div>
+            <div>
+              <label>Room Type</label>
+              <input type="text" name="roomType" id="roomType" />
+            </div>
+            <div>
+              <label>Room Location</label>
+              <input type="text" name="roomLocation" id="roomLocation" />
+            </div>
+            <div>
+              <label>Room Charge</label>
+              <input type="number" name="roomCharge" id="roomCharge" />
+            </div>
+            <div class="form-action-buttons">
+              <button class="btn btn-dark" id="addBtn">Submit</button>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
