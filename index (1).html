@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Html CRUD with Pure JavaScript
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <img class = img1 src = 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.usatoday.com%2Fstory%2Ftravel%2Fhotels%2F2014%2F08%2F14%2Fhotel-booking-tips%2F14006883%2F&psig=AOvVaw3Ho0kpuFN_G0zx6u7XD5vU&ust=1624216473425000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCOCF74K0pPECFQAAAAAdAAAAABAD'/>
+    <table>
+        <tr>
+            <td>
+                <h1>Create Room</h1>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>Room ID</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                        <input type="number" name="roomid" id="roomid">
+                    </div>
+                    <div>
+                        <label>Room Type</label>
+                        <input type="text" name="roomtype" id="roomtype" >
+                    </div>
+                    <div>
+                        <label>Room Location</label>
+                        <input type="text" name="roomlocation" id="roomlocation">
+                    </div>
+                    <div>
+                        <label>Room Charge</label>
+                        <input type="number" name="roomcharge" id="roomcharge">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Room ID</th>
+                            <th>Room Type</th>
+                            <th>Room Location</th>
+                            <th>Room Charge</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+
+                        </tr>
+
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
